@@ -78,7 +78,7 @@ function App() {
         loading: false
       }));
     }
-  }, [state.isOnline, state.selectedUser]);
+  }, [state.isOnline]);
 
   useEffect(() => {
     fetchMessages();
