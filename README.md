@@ -19,18 +19,12 @@ This is the React frontend for the WhatsApp Clone project, providing a responsiv
 -  date-fns
 
 
-## Getting Started
+### Installation
 
-### Prerequisites
+1. Clone the repository
+git clone https://github.com/kakarotgokuuuiiuiu/whatsapp-frontend.git
+cd your-frontend-repo
 - npm 
 - npm install date-fns
 - npm install
 - npm start
-
-
-
-### Installation
-
-1. Clone the repository
-git clone https://github.com/your-username/your-frontend-repo.git
-cd your-frontend-repo
