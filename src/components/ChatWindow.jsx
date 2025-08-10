@@ -45,7 +45,7 @@ const ChatWindow = ({ selectedUser, groupedMessages, onSendMessage, isMobile, on
     
     setSending(true);
     try {
-      const res = await axios.post("http://localhost:8000/api/send_message/", {
+      const res = await axios.post("https://whatsapp-backend-q2jg.onrender.com/api/send_message/", {
         wa_id: selectedUser,
         name: groupedMessages[selectedUser].user.name,
         message: newMessage,

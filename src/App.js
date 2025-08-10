@@ -46,7 +46,7 @@ function App() {
 
     try {
       setState(prev => ({ ...prev, loading: true }));
-      const res = await axios.get("http://localhost:8000/api/messages/");
+      const res = await axios.get("https://whatsapp-backend-q2jg.onrender.com/api/messages/");
       
       const grouped = res.data.reduce((acc, msg) => {
         const waId = msg.wa_id;

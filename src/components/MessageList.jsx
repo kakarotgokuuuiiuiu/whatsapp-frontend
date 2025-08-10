@@ -12,7 +12,7 @@ const MessageList = () => {
   const fetchMessages = useCallback(async () => {
     try {
       setLoading(true);
-      const res = await axios.get('http://localhost:8000/api/messages/');
+      const res = await axios.get('https://whatsapp-backend-q2jg.onrender.com/api/messages/');
       const grouped = {};
       
       res.data.forEach(msg => {

@@ -29,7 +29,7 @@ const Sidebar = ({ groupedMessages = {}, selectedUser, setSelectedUser, isMobile
         </div>
       </div>
 
-      {/* Conversations List */}
+      
       <div className="flex-1 overflow-y-auto">
         {sortedConversations.map(({ wa_id, user, lastMessage, unreadCount }) => {
           const isSelected = selectedUser === wa_id;
